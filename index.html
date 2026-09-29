@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Website wisata Candi Borobudur dengan informasi daya tarik, galeri, tiket, dan pemesanan kunjungan."
+    />
+    <title>Wisata Borobudur | Jawa Tengah</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Navigasi utama">
+        <a href="#beranda" class="brand" aria-label="Wisata Borobudur">
+          <span class="brand-mark">WB</span>
+          <span>
+            <strong>Wisata Borobudur</strong>
+            <small>Jawa Tengah</small>
+          </span>
+        </a>
+
+        <!-- Menu mobile dibuat dengan CSS tanpa JavaScript -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="menu-button" aria-label="Buka menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <div class="nav-links">
+          <a href="#tentang">Tentang</a>
+          <a href="#daya-tarik">Daya Tarik</a>
+          <a href="#galeri">Galeri</a>
+          <a href="#tiket">Tiket</a>
+          <a href="#pesan" class="nav-cta">Pesan</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HALAMAN UTAMA -->
+      <section id="beranda" class="hero">
+        <div class="container hero-content">
+          <p class="eyebrow">MAGELANG • JAWA TENGAH • INDONESIA</p>
+          <h1>Temukan Pesona<br /><span>Candi Borobudur</span></h1>
+          <p class="hero-description">
+            Nikmati kemegahan arsitektur, relief bersejarah, suasana pagi yang
+            tenang, dan panorama alam di sekitar Borobudur.
+          </p>
+          <div class="hero-actions">
+            <a href="#pesan" class="btn btn-primary">Pesan Kunjungan</a>
+            <a href="#tentang" class="btn btn-light">Pelajari Lebih Lanjut</a>
+          </div>
+        </div>
+        <div class="scroll-hint">↓ Scroll untuk menjelajah</div>
+      </section>
+
+      <!-- TENTANG -->
+      <section id="tentang" class="section">
+        <div class="container split-grid">
+          <div class="section-image">
+            <img src="image/patung.jpeg" alt="Candi Borobudur di Jawa Tengah" />
+          </div>
+
+          <div class="section-text">
+            <p class="section-kicker">TENTANG BOROBUDUR</p>
+            <h2>Jejak Sejarah di Tengah Lanskap Jawa</h2>
+            <p>
+              Candi Borobudur merupakan salah satu tujuan wisata budaya yang
+              menghadirkan perpaduan antara arsitektur, relief, stupa, dan
+              pemandangan alam Jawa Tengah.
+            </p>
+            <p>
+              Pengunjung dapat menikmati area candi, mempelajari kisah yang
+              tergambar pada relief, serta menyaksikan suasana pagi dengan
+              panorama pegunungan di sekitarnya.
+            </p>
+
+            <div class="facts">
+              <div>
+                <strong>Stupa</strong>
+                <span>Ikon arsitektur</span>
+              </div>
+              <div>
+                <strong>Relief</strong>
+                <span>Jejak cerita sejarah</span>
+              </div>
+              <div>
+                <strong>Sunrise</strong>
+                <span>Panorama pagi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- DAYA TARIK -->
+      <section id="daya-tarik" class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">DAYA TARIK</p>
+            <h2>Pengalaman yang Bisa Dinikmati</h2>
+            <p>
+              Beberapa bagian yang dapat menjadi fokus perjalanan wisata di
+              kawasan Borobudur.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-icon">◈</div>
+              <h3>Stupa & Arsitektur</h3>
+              <p>
+                Jelajahi susunan teras, stupa, dan detail arsitektur yang
+                menjadi ciri khas Candi Borobudur.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon">✦</div>
+              <h3>Relief Bersejarah</h3>
+              <p>
+                Amati relief batu yang menghiasi dinding candi dan pelajari
+                kisah yang direpresentasikan di dalamnya.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon">⌁</div>
+              <h3>Sunrise & Panorama</h3>
+              <p>
+                Nikmati cahaya pagi dan pemandangan pegunungan dari kawasan
+                sekitar candi.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALERI -->
+      <section id="galeri" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">GALERI</p>
+            <h2>Potret Borobudur</h2>
+            <p>Foto dapat diganti dengan koleksi foto milikmu sendiri.</p>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-item gallery-large">
+              <img
+                src="image/sunrise.jpg"
+                alt="Candi Borobudur saat matahari terbit"
+              />
+              <figcaption>Sunrise Borobudur</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+              <img src="image/stupa.jpg" alt="Stupa Candi Borobudur" />
+              <figcaption>Stupa</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+              <img src="image/relief.png" alt="Relief pada Candi Borobudur" />
+              <figcaption>Relief</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+              <img src="image/pagi.jpg" alt="Borobudur pada pagi hari" />
+              <figcaption>Pagi Hari</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+              <img
+                src="image/panorama.jpg"
+                alt="Pemandangan Borobudur dan Gunung Merapi saat matahari terbit"
+              />
+              <figcaption>Panorama</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- TIKET -->
+      <section id="tiket" class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">TIKET</p>
+            <h2>Paket Kunjungan</h2>
+            <p>
+              Harga di bawah merupakan contoh desain untuk tugas dan dapat
+              diganti sesuai ketentuan tempat wisata.
+            </p>
+          </div>
+
+          <div class="ticket-grid">
+            <article class="ticket-card">
+              <span class="ticket-label">REGULER</span>
+              <h3>Wisata Candi</h3>
+              <p class="ticket-price">Rp50.000 <span>/orang</span></p>
+              <ul>
+                <li>Akses kunjungan reguler</li>
+                <li>Area utama wisata</li>
+                <li>Informasi destinasi</li>
+              </ul>
+              <a href="#pesan" class="btn btn-outline">Pilih Paket</a>
+            </article>
+
+            <article class="ticket-card featured">
+              <span class="ticket-label">POPULAR</span>
+              <h3>Heritage Tour</h3>
+              <p class="ticket-price">Rp100.000 <span>/orang</span></p>
+              <ul>
+                <li>Kunjungan candi</li>
+                <li>Area foto & edukasi</li>
+                <li>Tur dengan pemandu</li>
+              </ul>
+              <a href="#pesan" class="btn btn-primary">Pilih Paket</a>
+            </article>
+
+            <article class="ticket-card">
+              <span class="ticket-label">SUNRISE</span>
+              <h3>Morning Experience</h3>
+              <p class="ticket-price">Rp150.000 <span>/orang</span></p>
+              <ul>
+                <li>Pengalaman pagi</li>
+                <li>Panorama sunrise</li>
+                <li>Pemandu wisata</li>
+              </ul>
+              <a href="#pesan" class="btn btn-outline">Pilih Paket</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- PESAN KUNJUNGAN -->
+      <section id="pesan" class="section booking-section">
+        <div class="container booking-grid">
+          <div class="booking-copy">
+            <p class="section-kicker">PESAN KUNJUNGAN</p>
+            <h2>Rencanakan Perjalananmu</h2>
+            <p>
+              Isi formulir berikut untuk membuat simulasi pemesanan kunjungan.
+              Pada website nyata, formulir ini dapat dihubungkan dengan database
+              atau backend.
+            </p>
+
+            <div class="contact-box">
+              <div>
+                <span>📍</span>
+                <div>
+                  <strong>Lokasi</strong>
+                  <p>Magelang, Jawa Tengah, Indonesia</p>
+                </div>
+              </div>
+              <div>
+                <span>✉</span>
+                <div>
+                  <strong>Email</strong>
+                  <p>info@candiborobudur.example</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form class="booking-form" action="#" method="post">
+            <div class="form-row">
+              <label>
+                Nama Lengkap
+                <input
+                  type="text"
+                  name="nama"
+                  placeholder="Masukkan nama"
+                  required
+                />
+              </label>
+
+              <label>
+                Email
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="nama@email.com"
+                  required
+                />
+              </label>
+            </div>
+
+            <div class="form-row">
+              <label>
+                Tanggal Kunjungan
+                <input type="date" name="tanggal" required />
+              </label>
+
+              <label>
+                Jumlah Orang
+                <input
+                  type="number"
+                  name="jumlah"
+                  min="1"
+                  max="30"
+                  placeholder="2"
+                  required
+                />
+              </label>
+            </div>
+
+            <label>
+              Paket
+              <select name="paket" required>
+                <option value="" selected disabled>-- Pilih paket --</option>
+                <option>Wisata Candi</option>
+                <option>Heritage Tour</option>
+                <option>Morning Experience</option>
+              </select>
+            </label>
+
+            <label>
+              Catatan
+              <textarea
+                name="catatan"
+                rows="5"
+                placeholder="Tulis kebutuhan atau pertanyaanmu..."
+              ></textarea>
+            </label>
+
+            <button type="submit" class="btn btn-primary btn-full">
+              Kirim Pesanan
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER: dibuat sama seperti footer website contoh -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <h3>Dikelola oleh</h3>
+        <p>Email: info@candiborobudur.example</p>
+        <p>Telp: 0823-9911-7820</p>
+        <a
+          href="https://instagram.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="instagram-link"
+        >
+          Instagram
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
